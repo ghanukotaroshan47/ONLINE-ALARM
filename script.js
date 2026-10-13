@@ -18,7 +18,7 @@ setInterval(() => {
     if (now === alarmTime && alarmTime !== null) {
         sound.play();
         document.getElementById("msg").textContent =
-            "Alarm ringing!";
+            "WAKE UP !!! ITS TIME TO RISE";
         alarmTime = null;
     }
 }, 1000);
